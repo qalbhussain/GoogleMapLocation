@@ -50,15 +50,6 @@ public class MainActivity extends AppCompatActivity
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
-
-
-    //THSI IS MY FIREBASE BRANCH
-
-
-    //Request codes
-    private final static int PERMISSION = 0xc8;
-    private final static int LOCATION = 0x1;
-
     //Request codes
     private final static int PERMISSION_LOCATION_REQUEST = 0xc8;
     private final static int LOCATION_SETTING_REQUEST_CODE = 0x1;
