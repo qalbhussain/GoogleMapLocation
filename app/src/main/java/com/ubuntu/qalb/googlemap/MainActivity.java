@@ -50,6 +50,10 @@ public class MainActivity extends AppCompatActivity
         GoogleApiClient.OnConnectionFailedListener,
         LocationListener {
 
+
+
+    //THSI IS MY FIREBASE BRANCH
+
     //Request codes
     private final static int PERMISSION_LOCATION_REQUEST = 0xc8;
     private final static int LOCATION_SETTING_REQUEST_CODE = 0x1;
@@ -314,7 +318,7 @@ public class MainActivity extends AppCompatActivity
     //-- the latlng parameter is just for getting user's locations
     private Circle addRadiusToCurrentLocation(LatLng latlng) {
         CircleOptions circleOption = new CircleOptions()
-                .fillColor(0x33ff0000)
+                .fillColor(R.color.colorPrimaryDark)
                 .radius(2000)
                 .center(latlng);
 
